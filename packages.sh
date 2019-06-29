@@ -11,3 +11,5 @@ apt install jq curl git git-hub howdoi ranger vim  -y
 
 apt install hub -y
 
+apt install docker.io -y
+
