@@ -5,12 +5,15 @@ curl -o popos_setup.zip -LOk https://github.com/brettswift/popos_setup/archive/m
 
 unzip popos_setup.zip 
 rm -rf popos_setup.zip
-mv popos_setup-master popos_setup
+
+mkdir -p ~/src
+WORKING_DIR=~/src/popos_setup
+mv popos_setup-master $WORKING_DIR
 
 echo installing
 
-chmod +x popos_setup/* 
-cd ./popos_setup/
+chmod +x ${WORKING_DIR} 
+cd ${WORKING_DIR}
 
 ./install.sh
 

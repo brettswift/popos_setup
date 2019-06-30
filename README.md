@@ -12,9 +12,9 @@ Clone this repo and run:
 ## Manual setup after automation
 
 * install visual studo code from the web download
+* dotfiles
 
 ### TODO:
 
 * automate install of superpaper
-* automate install of dotfiles 
 

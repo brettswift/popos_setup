@@ -14,4 +14,5 @@ echo "chsh -s /usr/bin/zsh"
 
 bat README.md  | grep -A 50 -i manual
 
-cat "Close and reopen terminal."
+echo "Completed aside from the manual steps above."
+echo "You should now reboot..."
