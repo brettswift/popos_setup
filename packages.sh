@@ -15,13 +15,18 @@ apt install jq \
 	curl \
 	git \
 	git-hub \
+	hub \
        	howdoi \
        	ranger \
 	vim \
 	awscli \
 	-y
 
-apt install hub -y
+# gui clients
+apt install \
+	darktable \
+	-y
+
 
 apt install docker.io -y
 
