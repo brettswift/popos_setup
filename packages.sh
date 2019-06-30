@@ -4,10 +4,22 @@
 #apt-get install software-properties-common
 ####
 
+if [ -x "$(command -v docker)" ]; then
+    echo "skipping packages, already found docker so assuming this ran"
+    exit 0
+fi
 add-apt-repository ppa:cpick/hub -y
 
 apt-get update
-apt install jq curl git git-hub howdoi ranger vim  -y
+apt install jq \
+	curl \
+	git \
+	git-hub \
+       	howdoi \
+       	ranger \
+	vim \
+	awscli \
+	-y
 
 apt install hub -y
 
