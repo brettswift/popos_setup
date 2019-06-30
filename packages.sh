@@ -25,6 +25,7 @@ apt install jq \
 # gui clients
 apt install \
 	darktable \
+	chromium-browser \
 	-y
 
 
