@@ -9,6 +9,7 @@ sudo ./packages.sh
 ./node_nvm_and_npm_packages.sh
 ./neovim.sh
 ./dconf_settings.sh
+./software.sh
 
 echo "you are required to change your shell to zsh manually"
 echo "chsh -s /usr/bin/zsh"
