@@ -26,6 +26,7 @@ apt install jq \
 apt install \
 	darktable \
 	chromium-browser \
+	clipit \
 	-y
 
 
