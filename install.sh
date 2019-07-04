@@ -10,6 +10,8 @@ sudo ./packages.sh
 ./neovim.sh
 ./dconf_settings.sh
 ./software.sh
+./i3_config.sh
+./fonts.sh
 
 echo "you are required to change your shell to zsh manually"
 echo "chsh -s /usr/bin/zsh"
