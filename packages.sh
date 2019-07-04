@@ -20,7 +20,7 @@ apt install jq \
        	ranger \
 	vim \
 	awscli \
-	i3 feh rofi \
+	i3 i3blocks feh rofi \
 	-y
 
 # gui clients
