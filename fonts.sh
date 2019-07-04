@@ -3,6 +3,7 @@ set -x
 # source common functions
 . functions.sh
 
+mkdir -p ~/.fonts
 ############## Font Awesome ###################
 WORKDIR=workdir
 mkdir -p ${WORKDIR}
