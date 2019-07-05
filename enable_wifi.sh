@@ -4,6 +4,8 @@ echo "Updating apt packages"
 sudo apt update
 sudo apt upgrade
 
+#  ---> this is likely only required for OSX. 
+
 echo "Reinstall kernel source so wifi works"
 sudo apt-get --reinstall install bcmwl-kernel-source
 

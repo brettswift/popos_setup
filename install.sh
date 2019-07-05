@@ -2,7 +2,7 @@
 
 set -e pipefail
 
-./enable_wifi.sh
+# only osx? ./enable_wifi.sh
 sudo ./packages.sh
 ./ohmyzsh.sh
 ./bat.sh
