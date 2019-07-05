@@ -3,6 +3,7 @@ set -x
 # source common functions
 . functions.sh
 
+#TODO: this path is deprecated, use /usr/share/fonts
 mkdir -p ~/.fonts
 ############## Font Awesome ###################
 WORKDIR=workdir

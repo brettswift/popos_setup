@@ -23,7 +23,7 @@ apt install jq \
 	i3 i3blocks feh rofi \
 	-y
 
-# for spotify cli
+# for spotify cli, i3pystatus
 apt-get install python3-pip -y
 
 # gui clients
@@ -33,6 +33,11 @@ apt install \
 	clipit \
 	-y
 
+# common dev modules
+apt install python-dev python3-dev \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev
 
 apt install docker.io -y
+
 
