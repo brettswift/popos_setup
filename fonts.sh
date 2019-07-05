@@ -16,7 +16,7 @@ FONT_AWESOME_VERSION=$(get_latest_release ${FONT_AWESOME_REPO})
 wget --no-check-certificate "https://github.com/FortAwesome/Font-Awesome/releases/download/${FONT_AWESOME_VERSION}/fontawesome-free-${FONT_AWESOME_VERSION}-web.zip" \
 	-O fontawesome.zip
 
-unzip fontawesome.zip 
+unzip fontawesome.zip
 
 
 ############## San Francisco Font (apple) ###################
@@ -25,13 +25,15 @@ unzip fontawesome.zip
 wget --no-check-certificate https://github.com/supermarin/YosemiteSanFranciscoFont/archive/master.zip \
 	-O san-fran.zip
 
-unzip san-fran.zip 
+unzip san-fran.zip
+
+POWERLINE_FONTS_REPO=powerline/fonts
+wget --no-check-certificate https://github.com/${POWERLINE_FONTS_REPO}/archive/master.zip \
+	-O powerline.zip 
+unzip powerline.zip 
+cd fonts-master 
+./install.sh
 
 find . -name '*.ttf' -exec mv -f {} ~/.fonts/ \;
 popd
 rm -rf ${WORKDIR}
-
-
-# apt fonts 
-sudo apt install fonts-powerline -y
-
