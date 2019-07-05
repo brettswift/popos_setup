@@ -23,6 +23,9 @@ apt install jq \
 	i3 i3blocks feh rofi \
 	-y
 
+# for spotify cli
+apt-get install python3-pip -y
+
 # gui clients
 apt install \
 	darktable \

@@ -23,7 +23,7 @@ echo "    Hit enter ONLY when you have an active WIFI connection...."
 
 echo "    Don't forget to reboot after this script!"
 echo "    If run from piping to bash - this script will exit. To continue, "
-echo "    cd ~/src/popos_setup && ./install.sh
+echo "    cd ~/src/popos_setup && ./install.sh"
 echo "#############################################################"
 echo "#############################################################"
 
