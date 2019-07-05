@@ -32,3 +32,6 @@ popd
 rm -rf ${WORKDIR}
 
 
+# apt fonts 
+sudo apt install fonts-powerline -y
+
