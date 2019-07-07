@@ -2,7 +2,10 @@
 
 pip3 install git+https://github.com/enkore/i3pystatus.git
 
-sudo apt-get install libiw-dev
+sudo apt-get install libiw-dev \
+	scrot \
+	imagemagick \
+	-y
 
 pip3 install pyalsaaudio \
 	netifaces \

@@ -20,7 +20,8 @@ apt install jq \
        	ranger \
 	vim \
 	awscli \
-	i3 i3blocks feh rofi \
+	i3 i3blocks feh rofi xautolock \
+	snapd \
 	-y
 
 # for spotify cli, i3pystatus
