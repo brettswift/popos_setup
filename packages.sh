@@ -27,6 +27,8 @@ apt install jq \
 # for spotify cli, i3pystatus
 apt-get install python3-pip -y
 
+pip3 install aws-sam-cli 
+
 # gui clients
 apt install \
 	darktable \
