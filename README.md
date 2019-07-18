@@ -14,6 +14,17 @@ Clone this repo and run:
 * install visual studo code from the web download
 * dotfiles
 
+### Configure xorg so screen brightness buttons work
+
+```
+$cat /etc/X11/xorg.conf
+Section "Device"
+        Identifier  "Intel Graphics" 
+        Driver      "intel"
+        Option      "Backlight"  "intel_backlight"
+EndSection
+```
+
 ### TODO:
 
 * automate install of superpaper
