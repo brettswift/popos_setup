@@ -43,4 +43,6 @@ apt install python-dev python3-dev \
 
 apt install docker.io -y
 
+# snap packages
 
+snap install rd
