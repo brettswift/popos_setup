@@ -27,7 +27,7 @@ apt install jq \
 # for spotify cli, i3pystatus
 apt-get install python3-pip -y
 
-pip3 install aws-sam-cli 
+pip3 install aws-sam-cli
 
 # gui clients
 apt install \
@@ -46,3 +46,4 @@ apt install docker.io -y
 # snap packages
 
 snap install rd
+snap install spotify
