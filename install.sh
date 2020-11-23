@@ -14,7 +14,7 @@ sudo ./packages.sh
 ./fonts.sh
 ./dropbox.sh
 ./software.sh
-
+./joplin.sh
 
 echo "you are required to change your shell to zsh manually"
 echo "chsh -s /usr/bin/zsh"

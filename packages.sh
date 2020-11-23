@@ -11,17 +11,18 @@ fi
 add-apt-repository ppa:cpick/hub -y
 
 apt-get update
-apt install jq \
+apt-get install jq \
 	curl \
 	git \
 	git-hub \
 	hub \
-       	howdoi \
-       	ranger \
+  howdoi \
+  ranger \
 	vim \
 	awscli \
 	i3 i3blocks feh rofi xautolock \
 	snapd \
+	fzf \
 	-y
 
 # for spotify cli, i3pystatus
@@ -30,18 +31,18 @@ apt-get install python3-pip -y
 pip3 install aws-sam-cli
 
 # gui clients
-apt install \
+apt-get install \
 	darktable \
 	chromium-browser \
 	clipit \
 	-y
 
 # common dev modules
-apt install python-dev python3-dev \
+apt-get install python-dev python3-dev \
      build-essential libssl-dev libffi-dev \
      libxml2-dev libxslt1-dev zlib1g-dev
 
-apt install docker.io -y
+apt-get install docker.io -y
 
 # snap packages
 

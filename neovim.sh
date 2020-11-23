@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-sudo add-apt-repository ppa:neovim-ppa/stable -y
-sudo apt update
-sudo apt install neovim -y
+#sudo add-apt-repository ppa:neovim-ppa/stable -y
+#sudo apt update
+#sudo apt install neovim -y
 
+snap install nvim -y
 # must be placed after node install
 npm install -g neovim
 
